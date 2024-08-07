@@ -1,0 +1,1039 @@
+.introImg {
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.centreText{
+    text-align: center;
+    color:white;
+    font-size: 15px;
+}
+
+.introTitle{
+    text-align: center;
+    color:#4c8c92;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*BACKWARD BUTTON*/
+
+.Control {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    display:block;
+    width:16.666%;
+    height:7.69%;
+    border-radius: 18.25%/81.75%;
+    background-color: #ffffff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Control > .Backward {
+    
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    float: left;
+    display:block;
+    width:32.8125%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Backward1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Control > .Backward:hover {
+    
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 32.8125%;
+    height: 100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/BackwardClicked.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+/*FORWARD BUTTON*/
+
+.Control > .Forward {
+    
+    position: absolute;
+    bottom: 0%;
+    left: 67.1875%;
+    float: left;
+    display:block;
+    width:32.8125%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Forward1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Control > .Forward:hover {
+    
+    position: absolute;
+    bottom: 0%;
+    right: 67.1875%;
+    width: 32.8125%;
+    height: 100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ForwardClicked1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+/*PLAY BUTTON*/
+
+.Play > .Play {
+    
+    position: absolute;
+    bottom: 1%;
+    left: 6.468%;
+    float: left;
+    display:block;
+    width: 5.729%;
+    height: 7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Play1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Play > .Play:hover {
+    
+    position: absolute;
+    bottom: 1%;
+    left: 6.468%;
+    width: 5.729%;
+    height: 7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/PlayClicked.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Pause > .Pause {
+    
+    position: absolute;
+    bottom: 1%;
+    left: 6.468%;
+    float: left;
+    display:block;
+    width: 5.729%;
+    height: 7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Pause1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Pause > .Pause:hover {
+    
+    position: absolute;
+    bottom: 1%;
+    left: 6.468%;
+    width: 5.729%;
+    height: 7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/PauseClicked.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Exterior {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display:block;
+    width:12.5%;
+    height:7.69%;
+    border-radius: 22.5%/77.5%;
+    background-color: #ffffff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.Exterior > .Up{
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    display:block;
+    width:100%;
+    height:50%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/NoUp.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Exterior > .Up:hover {
+    
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    display:block;
+    width:100%;
+    height:50%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Up.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Exterior > .Down{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display:block;
+    cursor: pointer;
+    width:100%;
+    height:50%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/NoDown.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Exterior > .Down:hover{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display:block;
+    cursor: pointer;
+    width:100%;
+    height:50%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Down.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Ground{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display:block;
+    width:6.25%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Ground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Floor{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display:block;
+    width:6.25%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/1stFloor.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Roof{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display:block;
+    width:6.25%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Roof.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ExteriorT{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display:block;
+    width:6.25%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExteriorF.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Orbit {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    border-radius: 37.5%/62.5%;
+    background-color: #ffffff;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExteriorNew.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Orbit:hover {
+    
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExteriorNewClicked.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+/*
+.OrbitE {
+    position: absolute;
+    bottom: 8px;
+    left: 7.5%;
+    border-radius: 37.5%/62.5%;
+    background-color: #ffffff;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExteriorNew.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OrbitE:hover {
+    
+    position: absolute;
+    bottom: 8px;
+    left: 7.5%;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExteriorNewClicked.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Ext {
+    position: absolute;
+    bottom: 8px;
+    left: 7.5%;
+    border-radius: 37.5%/62.5%;
+    background-color: #ffffff;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Ext.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Ext:hover {
+    
+    position: absolute;
+    bottom: 8px;
+    left: 7.5%;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExtOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+*/
+.Explore {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    border-radius: 37.5%/62.5%;
+    background-color: #ffffff;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExploreNew.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Explore:hover {
+    
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    float: left;
+    display:block;
+    width:6.51%;
+    height:7.69%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExploreNewOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.ModeClicked{
+    position: absolute;
+    bottom: 11.851%;
+    right: 8px;
+    width: 20.83%;
+    height: 8.09%;
+    cursor: pointer;
+    border-radius: 18.25%/81.75%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #4c8c92;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ModeClicked > .ModeButton {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display:block;
+    cursor: pointer;
+    border:none;
+    width:20%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ModeDeploy.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ModeClicked > .ModeButton:hover {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width:20%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ModeDeployOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+
+.ModeClicked > .Exploration {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+    display:block;
+    cursor: pointer;
+    border:none;
+    width:26.25%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Exploration1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ModeClicked > .Exploration:hover {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+    width:26.25;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ExplorationOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.ModeClicked > .Presentation {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 46.25%;
+    display:block;
+    cursor: pointer;
+    border:none;
+    width:27.5%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Presentation1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ModeClicked > .Presentation:hover {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 46.25%;
+    width:27.5%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/PresentationOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.ModeClicked > .VR {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 73.75%;
+    display:block;
+    cursor: pointer;
+    border:none;
+    width:26.25%;
+    height:100%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/VR1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*
+.ModeClicked > .VR:hover {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 295px;
+    width:105px;
+    height:80px;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/VROver.png");
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+*/
+/*VIEW SELECTION*/
+
+.Menu{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 4.166%;
+    height: 38.46%;
+    cursor: pointer;
+    border-radius: 81.75%/18.25%;
+    background-color: #ffffff;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Menu > .FullScreen {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 27.5%;
+    cursor: pointer;
+    border: none;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/FullScreen.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Menu > .FullScreen:hover {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 27.5%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/FullScreenOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Menu > .Mode {
+    position: absolute;
+    bottom: 27.5%;
+    right: 0px;
+    width: 100%;
+    height: 22.5%;
+    cursor: pointer;
+    border: none;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Mode.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Menu > .Mode:hover {
+    
+    position: absolute;
+    bottom: 27.5%;
+    right: 0px;
+    width: 100%;
+    height: 22.5%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/ModeOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Menu > .Mode > .ModeImg {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Menu > .Help {
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+    width: 100%;
+    height: 22.5%;
+    cursor: pointer;
+    border: none;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Help.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Menu > .Help:hover {
+    
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+    width: 100%;
+    height: 22.5%;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/HelpOver.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.Menu > .Share {
+    position: absolute;
+    bottom: 72.5%;
+    right: 0px;
+    width: 100%;
+    height: 27.5%;
+    cursor: pointer;
+    border: none;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Share.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.info {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width:0px;
+    height:0px;
+    float: left;
+
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Info > .Form {
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    width:9.42%;
+    height:4.32%;
+    cursor: pointer;
+    background-image: url("https://s3.amazonaws.com/aws-website-testvideopc-tuqrz/Button/Contact+(1).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Share .popuptext{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 100%;
+    margin-left: -80px;
+}
+
+.Exploration .popuptext, .Presentation .popuptext, .VR .popuptext{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 70%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.Share .popuptext::after, .Exploration .popuptext::after, .Presentation .popuptext::after, .VR .popuptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.Share .show , .Exploration .show , .Presentation .show , .VR .show, .Toggle .show {
+    visibility: visible;
+/*     -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s; */
+}
